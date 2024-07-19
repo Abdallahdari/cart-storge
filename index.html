@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title>ADD cart</title>
+    <style>
+.cart-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+ margin-bottom: 20px;
+ border-bottom: 1px solid gray;
+}
+.cart-items img{
+    width: 50px;
+    height: 50px;
+}
+
+    </style>
+</head>
+<body class="">
+   <div class="container mx-auto xl:max-w-[1200px]">
+
+<div class="grid grid-cols-4 gap-20">
+<div class="product p1flex flex-col items-start border px-5">
+    <img src="/car.png" alt="" class="self-start">
+    <div>
+    <p class="title">car</p>
+    <p class="description">car pricture </p></div>
+    <button class="btn py-3 px-4 bg-blue-700 text-white rounded mt-5 ">Add to Cart</button>
+        </div>
+<div class="product p2 flex flex-col items-start border px-5">
+    <img src="camera.png" alt="" class="self-start">
+    <p class="title">camera</p>
+    <p class="description">mara to take a pricture </p>
+    <button class="btn py-3 px-4 bg-blue-700 text-white rounded mt-5 ">Add to Cart</button>
+        </div>
+           <div class="product p3 flex flex-col items-start border px-5">
+                        <img src="/dog.png" alt="" class="self-start">
+                        <div>
+                        <p class="title">dog</p>
+                        <p class="description">dog picture </p></div>
+                        <button class="btn py-3 px-4 bg-blue-700 text-white rounded mt-5 ">Add to Cart</button>
+                            </div>
+                        <div class="product p4 flex flex-col items-start border px-5">
+                            <img src="/image copy 2.png" alt="" class="self-start">
+                           <div> <p class="title">game</p>
+                            <p class="description">col games</p></div>
+                            <button class="btn py-3 px-4 bg-blue-700 text-white rounded mt-5 ">Add to Cart</button>
+                                </div>
+</div>
+<div id="cart" class="border shadow-md mt-12"></div>
+   </div> 
+
+</body>
+</html>
